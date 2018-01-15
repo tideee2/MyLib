@@ -1,15 +1,6 @@
 <mat-toolbar color="primary">
-  <mat-grid-list cols="2" rowHeight="100px">
-    <mat-grid-tile
-      [colspan]="1"
-      [style.background]="lightblue">
-      <span>{{ title }}</span>
-    </mat-grid-tile>
-    <mat-grid-tile
-      [colspan]="1"
-      [style.background]="lightgreen">
-      <button color="warn" mat-button >qq</button>
-      <span>{{email}}</span>
-    </mat-grid-tile>
-  </mat-grid-list>
+  <span>{{title}}</span>
+  <span class="example-fill-remaining-space"></span>
+  <button color="basic" mat-button>{{email}}</button>
 </mat-toolbar>
+<app-book-card></app-book-card>
